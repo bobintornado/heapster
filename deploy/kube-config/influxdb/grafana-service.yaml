@@ -11,7 +11,7 @@ spec:
   # or through a public IP. 
   type: NodePort
   ports:
-  - port: 81
+  - port: 80
     targetPort: 3000
   selector:
     name: influxGrafana
